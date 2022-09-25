@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_theory"
+        android:icon="@drawable/ic_theory_24"
+        android:title="@string/title_nav_theory"
+        />
+    <item
+        android:id="@+id/navigation_tasks"
+        android:icon="@drawable/ic_tasks"
+        android:title="@string/title_nav_tasks"
+        />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile_24"
+        android:title="@string/title_nav_profile" />
+
+</menu>

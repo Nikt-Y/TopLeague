@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "561845308388",
+    "project_id": "topleague-dc127",
+    "storage_bucket": "topleague-dc127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561845308388:android:25a66e2ab7449098c355f1",
+        "android_client_info": {
+          "package_name": "com.yakun.topleague"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561845308388-ok79blqma5b0sgifa619v6b72t0v9nab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yakun.topleague",
+            "certificate_hash": "62a08937a47fbc644d777d04e2ed758a3207bfef"
+          }
+        },
+        {
+          "client_id": "561845308388-hp4s5tr38ceug3md5siulj3i6dbag96c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuM2ewcYSA3bLqjOFns3peb9uegaxSFt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561845308388-hp4s5tr38ceug3md5siulj3i6dbag96c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
