@@ -17,7 +17,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.yakun.topleague.R
 import com.yakun.topleague.firestore.FirestoreClass
 import com.yakun.topleague.models.InfoBlock
-import com.yakun.topleague.models.Lecture
 import com.yakun.topleague.models.Task
 import com.yakun.topleague.ui.adapters.MyInfoBlockListAdapter
 import com.yakun.topleague.utils.Constants

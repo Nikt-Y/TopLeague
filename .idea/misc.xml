@@ -9,10 +9,17 @@
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/drawable_gender_tab_selector.xml" value="0.1" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/drawable_gender_tab_text_color_selector.xml" value="0.1" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1" />
+        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_baseline_school_24.xml" value="0.3675" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_black_color_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.3675" />
+        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_hint_30.xml" value="0.18" />
+        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.3675" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_image_search_24.xml" value="0.3675" />
+        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_image_search_30.xml" value="0.3675" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.3675" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_profile_24.xml" value="0.1" />
+        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_search_30.xml" value="0.3675" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_theory_24.xml" value="0.1" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_vector_add_photo.xml" value="0.1625" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/drawable/ic_vector_add_record.xml" value="0.1625" />
@@ -33,7 +40,7 @@
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/layout/activity_navigation.xml" value="0.25" />
-        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/layout/activity_settings.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/layout/activity_splash.xml" value="0.5" />
         <entry key="..\:/Users/tankn/AndroidStudioProjects/TopLeague/app/src/main/res/layout/activity_task_details.xml" value="0.2520833333333333" />
