@@ -7,7 +7,7 @@
     android:background="@color/white"
     tools:context=".ui.activities.TaskDetailsActivity">
 
-    <androidx.appcompat.widget.Toolbar
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/toolbar_add_product_activity"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -16,19 +16,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
+        <com.yakun.topleague.utils.TLTextViewBold
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:paddingStart="@dimen/toolbar_title_paddingStart"
-            android:paddingEnd="0dp"
-            android:text="TASK"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Task"
             android:textColor="@color/white"
             android:textSize="@dimen/toolbar_title_text_size"
             android:textStyle="bold" />
 
-    </androidx.appcompat.widget.Toolbar>
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="10dp"
+            android:contentDescription="arrow"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"

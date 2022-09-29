@@ -41,16 +41,7 @@ class TheoryDetailsActivity : BaseActivity() {
      * A function for actionBar Setup.
      */
     private fun setupActionBar() {
-
-        setSupportActionBar(toolbar_product_details_activity)
-
-        val actionBar = supportActionBar
-        if (actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true)
-            actionBar.setHomeAsUpIndicator(R.drawable.ic_white_color_back_24dp)
-        }
-
-        toolbar_product_details_activity.setNavigationOnClickListener { onBackPressed() }
+        iv_back.setOnClickListener{onBackPressed()}
     }
 
     /**

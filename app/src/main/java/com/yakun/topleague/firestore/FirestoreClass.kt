@@ -295,7 +295,7 @@ class FirestoreClass {
 
                     lecturesList.add(lecture)
                 }
-
+                lecturesList.sortBy { it.title }
                 fragment.successLecturesListFromFireStore(lecturesList)
             }
             .addOnFailureListener { e ->
@@ -321,7 +321,7 @@ class FirestoreClass {
 
                     taskList.add(task)
                 }
-
+                taskList.sortBy { it.title }
                 fragment.successTasksListFromFireStore(taskList)
             }
             .addOnFailureListener { e ->

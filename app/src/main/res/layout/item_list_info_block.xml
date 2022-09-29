@@ -9,18 +9,6 @@
     android:orientation="vertical"
     android:padding="5dp">
 
-    <ImageButton
-        android:id="@+id/ib_delete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/content_description"
-        android:foreground="?attr/selectableItemBackgroundBorderless"
-        android:src="@drawable/ic_vector_delete"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <FrameLayout
         android:id="@+id/fl_mv"
         android:layout_width="match_parent"
@@ -90,5 +78,17 @@
             android:padding="@dimen/add_update_product_icon_padding"
             android:src="@drawable/ic_vector_add_photo" />
     </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/ib_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/content_description"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_vector_delete"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

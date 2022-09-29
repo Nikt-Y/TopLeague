@@ -34,7 +34,6 @@ class AddLectureActivity : BaseActivity(), View.OnClickListener {
     private var infoBlockList: ArrayList<InfoBlock> = ArrayList()
     private var curNum: Int = 0
     lateinit var adapterInfoBlocks: RecyclerView.Adapter<RecyclerView.ViewHolder>
-    var imgCount = -1
     private var tw: TextWatcher? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -187,7 +186,6 @@ class AddLectureActivity : BaseActivity(), View.OnClickListener {
         ) {
             // The uri of selection image from phone storage.
             infoBlockList[selectedItemNum].image_uri = data.data!!
-            imgCount++
 
             adapterInfoBlocks.notifyItemChanged(selectedItemNum)
         }
@@ -282,8 +280,12 @@ class AddLectureActivity : BaseActivity(), View.OnClickListener {
     fun lectureUploadSuccess(id: String) {
         infoBlockList.removeAt(0)
         infoBlockList.removeAt(0)
+        var imgCount = 0
         for (infoBlock in infoBlockList) {
             infoBlock.record_id = id
+            if (infoBlock.is_img) {
+                imgCount++
+            }
         }
         // Hide the progress dialog
         hideProgressDialog()
@@ -319,9 +321,6 @@ class AddLectureActivity : BaseActivity(), View.OnClickListener {
     }
 
     fun deleteBlock(position: Int) {
-        if (infoBlockList[position].image_uri != null) {
-            imgCount--
-        }
         infoBlockList.removeAt(position)
         adapterInfoBlocks.notifyItemRemoved(position)
         setSelectedInfoBlockNum(0)

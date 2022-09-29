@@ -1,6 +1,8 @@
 package com.yakun.topleague.ui.activities
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -50,16 +52,7 @@ class TaskDetailsActivity : BaseActivity(), View.OnClickListener {
      * A function for actionBar Setup.
      */
     private fun setupActionBar() {
-
-        setSupportActionBar(toolbar_add_product_activity)
-
-        val actionBar = supportActionBar
-        if (actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true)
-            actionBar.setHomeAsUpIndicator(R.drawable.ic_white_color_back_24dp)
-        }
-
-        toolbar_add_product_activity.setNavigationOnClickListener { onBackPressed() }
+        iv_back.setOnClickListener { onBackPressed() }
     }
 
     /**
@@ -111,6 +104,7 @@ class TaskDetailsActivity : BaseActivity(), View.OnClickListener {
                         infoBlockList.add(hintList[hintCounter])
                         hintCounter++
                         adapterInfoBlocks.notifyItemInserted(infoBlockList.size - 1)
+                        rv.post(Runnable { rv.smoothScrollToPosition(infoBlockList.size) })
                     } else {
                         showErrorSnackBar("Unfortunately, there are no more hints", true)
                     }
