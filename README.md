@@ -11,14 +11,14 @@ This mobile application not only allows users to study theoretical materials but
 - **Registration and Authentication**: Sign up, log in, and log out.
 - **Profile Editing**: Users can personalize their profiles.
 
-<img src="/ReadMeFiles/login.jpg" width="300" alt="login"> <img src="/ReadMeFiles/create_ac.jpg" width="300" alt="register"> <img src="/ReadMeFiles/forgot.jpg" width="300" alt="forgot">
+<img src="/ReadMeFiles/login.jpg" width="230" alt="login"> <img src="/ReadMeFiles/create_ac.jpg" width="230" alt="register"> <img src="/ReadMeFiles/forgot.jpg" width="230" alt="forgot">
 
 #### For All Users
 - **Learning Theoretical Materials**: Access a wide range of educational content enhanced with images and LaTeX formulas.
 - **Engaging with Practical Tasks**: Solve various tasks, receive hints, and submit answers.
 
-<img src="/ReadMeFiles/main.jpg" width="300" alt="main"> <img src="/ReadMeFiles/physics.jpg" width="300" alt="physics"> <img src="/ReadMeFiles/demo_lec.jpg" width="300" alt="demo lecture">
-<img src="/ReadMeFiles/demo_task.jpg" width="300" alt="demo task">
+<img src="/ReadMeFiles/main.jpg" width="230" alt="main"> <img src="/ReadMeFiles/physics.jpg" width="230" alt="physics"> <img src="/ReadMeFiles/demo_lec.jpg" width="230" alt="demo lecture">
+<img src="/ReadMeFiles/demo_task.jpg" width="230" alt="demo task">
 
 #### For Administrators
 - **In-App Content Builder**: Admins can use an intuitive constructor made up of text and image blocks to create complex articles.
@@ -27,8 +27,8 @@ This mobile application not only allows users to study theoretical materials but
 - **Support for LaTeX Formulas and Images**: Enhance learning materials with mathematical formulas and illustrative images.
     (If you're interested in becoming an administrator, please contact me on [Telegram](https://t.me/ynikt))
 
-<img src="/ReadMeFiles/add_lec.jpg" width="300" alt="add lecture"> <img src="/ReadMeFiles/new_lec.jpg" width="300" alt="new lecture"> <img src="/ReadMeFiles/delete.jpg" width="300" alt="delete">
-<img src="/ReadMeFiles/create_task.jpg" width="300" alt="create task">
+<img src="/ReadMeFiles/add_lec.jpg" width="230" alt="add_lecture"> <img src="/ReadMeFiles/new_lec.jpg" width="230" alt="new lecture"> <img src="/ReadMeFiles/delete.jpg" width="230" alt="delete">
+<img src="/ReadMeFiles/create_task.jpg" width="230" alt="create task">
 
 ## Technologies
 
