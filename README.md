@@ -27,7 +27,7 @@ This mobile application not only allows users to study theoretical materials but
 - **Support for LaTeX Formulas and Images**: Enhance learning materials with mathematical formulas and illustrative images.
     (If you're interested in becoming an administrator, please contact me on [Telegram](https://t.me/ynikt))
 
-<img src="/ReadMeFiles/add_lec.jpg" width="230" alt="add_lecture"> <img src="/ReadMeFiles/new_lec.jpg" width="230" alt="new lecture"> <img src="/ReadMeFiles/delete.jpg" width="230" alt="delete">
+<img src="/ReadMeFiles/add_lect.jpg" width="230" alt="add lecture"> <img src="/ReadMeFiles/new_lec.jpg" width="230" alt="new lecture"> <img src="/ReadMeFiles/delete.jpg" width="230" alt="delete">
 <img src="/ReadMeFiles/create_task.jpg" width="230" alt="create task">
 
 ## Technologies
